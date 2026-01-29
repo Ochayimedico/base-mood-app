@@ -13,7 +13,7 @@ export async function GET() {
       version: "1",
       name: "Base Vibes",
       homeUrl: URL,
-      iconUrl: `${URL}/next.svg`,
+      iconUrl: `${URL}/screenshot1.png`,
       splashImageUrl: `${URL}/globe.svg`,
       splashBackgroundColor: "#7c3aed",
       subtitle: "Track your daily vibes",
@@ -29,7 +29,7 @@ export async function GET() {
       tagline: "Share your vibes",
       ogTitle: "Base Vibes - Mood Tracker",
       ogDescription: "Track and share your daily vibes on Base",
-      ogImageUrl: `${URL}/vercel.svg`,
+      ogImageUrl: `${URL}/screenshot2.png`,
       noindex: true
     }
   });
