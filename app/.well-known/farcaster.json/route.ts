@@ -14,7 +14,7 @@ export async function GET() {
       name: "Base Vibes",
       homeUrl: URL,
       iconUrl: `${URL}/screenshot1.png`,
-      splashImageUrl: `${URL}/globe.svg`,
+      splashImageUrl: `${URL}/screenshot1.png`,
       splashBackgroundColor: "#7c3aed",
       subtitle: "Track your daily vibes",
       description: "A fun and colorful way to track your mood throughout the day on Base.",
