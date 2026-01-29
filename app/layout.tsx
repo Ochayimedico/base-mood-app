@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 import './globals.css';
 
 export async function generateMetadata(): Promise<Metadata> {
-  const appUrl = process.env.NEXT_PUBLIC_URL || 'https://base-mood-app.com';
+  const URL = process.env.NEXT_PUBLIC_URL || 'https://base-mood-app.com';
   
   return {
     title: 'Base Vibes - Mood Tracker',
@@ -11,14 +11,14 @@ export async function generateMetadata(): Promise<Metadata> {
     other: {
       'fc:miniapp': JSON.stringify({
         version: 'next',
-        imageUrl: `${appUrl}/embed-image.png`,
+        imageUrl: `${URL}/embed-image.png`,
         button: {
           title: 'Check Vibes',
           action: {
             type: 'launch_miniapp',
             name: 'Base Vibes',
-            url: appUrl,
-            splashImageUrl: `${appUrl}/splash.png`,
+            url: URL,
+            splashImageUrl: `${URL}/splash.png`,
             splashBackgroundColor: '#7c3aed',
           },
         },
