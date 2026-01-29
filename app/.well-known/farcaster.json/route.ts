@@ -1,5 +1,5 @@
 export async function GET() {
-  const URL = process.env.NEXT_PUBLIC_URL
+  const URL = "https://base-mood-app.vercel.app/"
   
   return Response.json({
    
@@ -13,8 +13,8 @@ export async function GET() {
       version: "1",
       name: "Base Vibes",
       homeUrl: URL,
-      iconUrl: `${URL}/icon.png`,
-      splashImageUrl: `${URL}/splash.png`,
+      iconUrl: `${URL}/next.svg`,
+      splashImageUrl: `${URL}/globe.svg`,
       splashBackgroundColor: "#7c3aed",
       subtitle: "Track your daily vibes",
       description: "A fun and colorful way to track your mood throughout the day on Base.",
@@ -25,11 +25,11 @@ export async function GET() {
       ],
       primaryCategory: "social",
       tags: ["mood", "tracker", "vibes", "wellness"],
-      heroImageUrl: `${URL}/hero.png`,
+      heroImageUrl: `${URL}/screenshot1.png`,
       tagline: "Share your vibes",
       ogTitle: "Base Vibes - Mood Tracker",
       ogDescription: "Track and share your daily vibes on Base",
-      ogImageUrl: `${URL}/og-image.png`,
+      ogImageUrl: `${URL}/vercel.svg`,
       noindex: true
     }
   });
